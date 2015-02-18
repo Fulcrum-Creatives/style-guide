@@ -1,0 +1,32 @@
+/* Header
+================================================================================*/
+.header--fc {
+    border-top: 8px solid #ffd202;
+    border-bottom: 1px solid #6b6358;
+    overflow: hidden;
+    width: 100%;
+    padding: 1em 0;
+}
+.logo--fc {
+    overflow: hidden;
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-left: 0;
+    background: url(../images/fulcrum-logo.png) no-repeat;
+    background-size: 50px 49px;
+}
+.header--section {
+    font-size: 0.9em;
+    color: #6b6358;
+    border-bottom: 1px solid #6b6358;
+    margin-bottom: 1.5em;
+    p {
+        margin-bottom: 0.5em
+    }
+}
+.header--client {
+    font-size: 2em;
+    margin-top: 1em;
+}

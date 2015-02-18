@@ -1,0 +1,81 @@
+/* Print Styles
+================================================================================*/
+.skip-nav {
+    display: none;
+}
+.header__nav,
+.nav__fullbg,
+.mobile-nav {
+    display: none;
+}
+.header {
+    background-image: none;
+    background-color: transparent;
+    picture {
+        display: none;
+    }
+}
+.header__heading {
+    background-image: url(../images/caritas-logo-print.png);
+    width: 660px;
+    height: 82px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.header__def {
+    color: $base-font-color;
+}
+.col-3 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    li{
+        width: 30%;
+        float: left;
+        margin-bottom: 1.5em;
+        overflow: hidden;
+        margin-right: 1%;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+.services ul li ul.col-2 {
+    margin-top: 40px;
+}
+.partners .part-bg {
+    background-image: none;
+    background-color: transparent;
+    color: $base-font-color;
+}
+.part-img-full {
+    ul {
+        display: none;
+    }
+}
+.part-info {
+    li {
+        width: 100%;
+        float: none;
+    }
+    picture {
+        display: none;
+    }
+}
+.bio-full {
+    display: block;
+    background-color: transparent;
+    color: $base-font-color;
+}
+.get-connected,
+.email-link,
+.close-link,
+.part-info__name,
+.part-info__text.bruce-open,
+.part-info__text.dan-open,
+.part-info__text.john-open {
+    display: none;
+}

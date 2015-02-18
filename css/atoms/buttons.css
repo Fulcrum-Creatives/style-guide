@@ -1,0 +1,40 @@
+/* Buttons
+================================================================================*/
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  width: 150px;
+  height: 30px;
+  background-color: #938a7c;
+  color: #fff;
+  font-weight: bold;
+  border: 1px solid #6b6358;
+  margin: 0.5em 0;
+}
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: #413c35;
+}
+
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  line-height: 0.5em;
+}
+
+button[disabled],
+input[disabled] {
+  cursor: default;
+  border: 1px solid #ccc;
+  background-color: #d9d9d9;
+  color: #ccc;
+}
+button[disabled]:hover,
+input[disabled]:hover {
+  cursor: default;
+  background-color: #d9d9d9;
+}

@@ -1,0 +1,13 @@
+/* Checkbox Fields
+================================================================================*/
+.checkbox--list {
+	list-style-type: none;
+	padding: 0;
+	li {
+		margin: 0;
+	}
+}
+input[type="checkbox"] {
+	width: auto;
+	margin-right: 0.3em;
+}

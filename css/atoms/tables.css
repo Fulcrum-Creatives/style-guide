@@ -1,0 +1,13 @@
+/* Tabels
+================================================================================*/
+thead,
+tfoot {
+  text-align: left;
+  font-weight: bold;
+}
+
+th,
+td {
+  border: 1px solid #6b6358;
+  padding: 0.5em 1em;
+}
